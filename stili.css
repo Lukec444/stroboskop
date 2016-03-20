@@ -17,6 +17,10 @@ telo {
 	width: calc(100% - 50px);
 	overflow: auto;
 	padding: 10px;
+	border-style: solid;
+    border-color: red;
+    border-width: 1px;
+	box-shadow: -2px 2px 5px #888888;
 }
 
 .stroboskop {
@@ -27,11 +31,16 @@ telo {
 	width: calc(100% - 20px); 
 	float: left; 
 	padding: 10px;
+	box-shadow: -2px 4px 2px #888888;
 }
 
 #barve > button {
 	border: 0px;
 	margin: 5px;
+	border-style: solid;
+    border-color: red;
+    border-width: 1px;
+	box-shadow: -2px 2px 2px #888888;
 }
 
 #start {
@@ -40,8 +49,16 @@ telo {
     background: white;
     height: 50px;
     font-size: 18px;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+	box-shadow: -2px 2px 2px #888888;
 }
 
 #novaBarva, #odstraniBarve {
 	background: white;
+	border-style: groove;
+    border-color: red;
+    border-width: 1px;
+	box-shadow: -2px 2px 2px #888888;
 }
